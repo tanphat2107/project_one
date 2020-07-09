@@ -1,0 +1,99 @@
+.wrapper{
+	width: 1280px;
+	height: auto;
+  margin: 0 auto;
+  display:flex;
+  flex-direction: column;
+}
+
+/** Top Header Area **/
+.header_area{display:flex; flex-direction: row;background-color: #151920; color: #fff; align-items: center; max-width: 100%; height: 60px;}
+.header_area .logo{display:flex; flex-direction: row; justify-content: flex-start; width: 750px; margin: 0 50px}
+.header_area .content_logo{ margin-right: 15px;}
+.logo div>a{text-decoration: none;}
+.header_area .main_menu{ display:flex; flex-direction: row; justify-content:flex-end}
+.header_area nav>a{ margin: 0 20px;}
+.header_area nav>a:hover{background-color: tomato; height: 60px ;}
+.menu-description{background-image: url("/imgs/how_it_works.png"); background-size: 10px 10px; background-repeat: no-repeat; background-position: left;}
+.content >a { text-decoration: none;}
+.title{font-size: 52px;}
+.description{font-size: 22px;}
+.main_menu a{margin-left: 20px; text-decoration: none;}
+.menu-sign-up{background-image: url("/imgs/login.png"); background-size: 10px 10px; background-repeat: no-repeat; background-position: left}
+.menu-log-in{background-image: url("/imgs/user.png"); background-size: 10px 10px; background-repeat: no-repeat; background-position: left}
+/** Background Images **/
+.background_img { display: flex; flex-direction: column ; background-image: url("/imgs/background.png"); height: 465px; text-align: center;}
+.background_img .inner_background_img{ text-align: center;  margin: 0 auto; width: 100%; height: 465px; display: flex; flex-direction: column;}
+.background_img .inner_background_img h1{font-size: 3rem;}
+.background_img .content{width: 700px;margin: 30px auto;margin-top: 80px; display: flex; justify-content: center; flex-direction: column;}
+.background_img .description{ text-align: center;  margin-top: 30px; line-height: 1.5em; width: 690px;}
+.background_img .input{ display: flex; justify-content:  center; margin-top: 30px; color: #FFF; }
+.background_img .input a{text-decoration: none; margin: 0 5px;}
+
+/** Blog Post **/
+.body-area .inner-blog-area{display:flex; flex-direction: column;width: 1140px; padding: 50px 50px 0px 50px}
+.body-area .blog-post{display: flex; flex-direction: row; margin: 0 auto; color: black;}
+.body-area .blog-pic{display:flex; background-image: url("https://loremflickr.com/320/180"); background-size: 320px 180px; background-repeat: no-repeat ; background-position: center;width: 350px; height: 180px; }
+.body-area #blog-post{ display:flex; flex-direction: column; margin: 0 21px; width: 350px; height: 275px; border: 1px solid grey; border-radius: 5px;justify-content: flex-end;}
+.body-area #blog-post .topic{display:flex; flex-direction: row;  background-image: url("https://picsum.photos/200"); background-size: 50px 50px  ;background-repeat: no-repeat; margin: 15px }
+.body-area .topic .avatar {display: flex; width: 50px; height: 50px; margin: 0 15px 0 0}
+.body-area #blog-post .content #title h4{font-size: 16px; font-weight: 700px;}
+.body-area #blog-post .topic #content {margin-top: 5px}
+.body-area #content p{opacity: 0.5;}
+
+/** Next Post **/
+.next-post-area{display:flex; flex-direction: column;width: 1140px; padding: 30px; margin: 0 auto;}
+.next-post-area .inner-next-post-area{    height: 100px;width: 100%; background-color: #fff;display: flex;flex-direction: row;padding: 25px 0px 0px 0px;border-top: 1px solid gray;}
+.next-post-area .inner-next-post-area .next-post{display: flex; flex-direction: row; margin: 0px 20px; width: 350px; height: 90px;}
+.next-post-area .inner-next-post-area .next-post .avatar{background-image: url("https://picsum.photos/200");background-size: 90px 90px; border-radius: 50%;width: 90px;height: 90px;}
+.next-post-area .inner-next-post-area .next-post .content{ padding: 10px}
+.next-post-area .inner-next-post-area .next-post .content .date{}
+.next-post-area .inner-next-post-area .next-post .content .date p{font-size: 14px; opacity: 0.5;}
+.next-post-area .inner-next-post-area .next-post .content .title{padding-top: 10px;}
+.next-post-area .inner-next-post-area .next-post .content .title p{font-size: 16px; width: 235px; height: 45px;}
+
+
+/**  feature **/
+.feature-area{width: auto;}
+.feature-area .inner-feature-area{ width: 1140px; margin: 0 auto; }
+.feature-area .inner-feature-area ul{display: flex; justify-content:space-around;     padding: 50px; border-top: 1px solid grey;}
+.feature-area .inner-feature-area ul li{ display: flex; flex-direction: row;list-style-type: none;}
+
+
+/** footer **/
+.footer{width: 1280px; margin: 0 auto; border-top: 1px solid grey; background-color: #191c24; color: #fff;}
+.left-footer{display: block; float:left}
+.left-footer .direction-menu{display: flex}
+.left-footer .direction-menu ul h3{ font-size: 12px; font-weight: 700; margin-bottom: 20px; text-transform: uppercase; }
+.left-footer .direction-menu ul li{list-style-type: none; margin-top: 5px; font-size: 12px; font-weight: 500;}
+.left-footer .direction-menu ul li a{text-decoration: none; opacity: 30%;}
+
+
+.direction-menu >ul{display: inline;margin: 40px 70px;}
+.right-footer{display: block; float: right;}
+
+
+/** right footer **/
+.right-footer{color: #fff ; margin: 40px 70px; display: flex; flex-direction: column ;  width: 329px; display: flex; align-items: flex-end;
+  height: 110px;}
+.right-footer .social-network #social{}
+.right-footer .social-network {    display: flex; justify-content: flex-end; flex-direction: column;}
+.right-footer .social-network ul {display: flex; flex-direction: row;}
+
+.right-footer .social-network ul li{list-style-type: none; margin-left: 20px;}
+.right-footer .social-network ul li a{text-decoration: none;}
+.right-footer .copyright { display: flex; justify-content: flex-end; align-items: flex-end; flex-direction: column;    height: 300px;
+  width: 300px; }
+#copyright{margin-bottom: 10px;}
+.right-footer .copyright a{text-decoration: none; margin: 15px 0 0 20px;}
+
+
+/** buttom **/
+.how_it_works{
+  box-shadow: 0px 5px 0px 0px rgba(81,135,25,1);
+width: 235px; height: 50px; border-radius: 5px; border: 0px; background-color: #83c129; display: flex; align-items: center; justify-content: center;
+}
+.how_it_works:hover{ background-color: rgba(81,135,25,1); box-shadow: 0px 0px 0px 0px}
+.join_us{width: 175px; height: 50px; background-color: #068fd5  ; box-shadow: 0px 5px 0px 0px #046b9f;border-radius: 5px; border: 0px;    display: flex; align-items: center;
+  justify-content: center;}
+.join_us:hover{background-color: #046b9f; box-shadow: 0px 0px 0px 0px}

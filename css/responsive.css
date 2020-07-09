@@ -1,0 +1,9 @@
+/* table layout */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .wrapper{width: 70%;}
+}
+
+/* mobile layout */
+@media only screen and (min-width: 200px) and (max-width: 991px){
+    .wrapper{ width: 50%;}
+}
